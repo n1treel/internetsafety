@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="img/icon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Password Generator</title>
+  <style>
+    footer {
+      position: fixed;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="nav-icon"><img src="img/ENG.png" alt="" srcset="" class="icon-img"></div>
+    <div class="nav-links">
+      <a href="index.html">Main</a>
+      <a href="passgenerator.html">Generator</a>
+      <a href="uapassgenerator.html">Language</a>
+    </div>
+  </nav>
+  <header class="header">
+    <h1>Password Generator</h1>
+    <p>The SAFEST password generator tool</p>
+  </header>
+
+  <div id="password-tool">
+
+    <h1 align="center">How to use:</h1>
+    <h3 align="center">Basically, you just need to click the button 'Generate' and copy the password wherever you want
+    </h3>
+
+    <div class="password-container">
+      <input type="text" id="password" readonly>
+      <button id="generate-btn" onclick="generatePassword()">Generate</button>
+    </div>
+
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="footer">
+    &copy; 2023 Internet Safety Rules. Made by Eugen Karnaukh. No right reserved.
+  </footer>
+  <script src="generator.js"></script>
+</body>
+
+</html>

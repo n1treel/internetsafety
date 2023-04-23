@@ -6,14 +6,14 @@
   body {
     
     margin: 0;
-    background-color: #FCFFE7;
+    background-color: #ffffff;
   }
 
   .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2B3467;
+    background-color: #394F8A;
     color: #fff;
     padding: 10px;
   }
@@ -24,20 +24,21 @@
 
   .nav-links {
     display: flex;
+    color: #E1FCFD;
   }
 
   .nav-links a {
-    color: #fff;
+    color: #E1FCFD;
     margin-left: 20px;
     text-decoration: none;
   }
 
   .header {
     text-align: center;
-    background-color: #BAD7E9;
+    background-color: #4A5FC1;
     padding: 50px;
     font-size: xx-large;
-    color: rgb(182, 18, 67);
+    color: #9CF6FB;
     font-weight: 900;
   }
   .header > h1{
@@ -53,7 +54,7 @@
     bottom: 0;
     left: 0;
     
-    background-color: #EB455F;
+    background-color: #E1FCFD;
     text-align: center;
     padding: 1.5%;
     font-weight: 900;
@@ -97,7 +98,7 @@
   }
   
   #generate-btn {
-    background-color: #4CAF50;
+    background-color: #4A5FC1;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -111,10 +112,10 @@
   }
 
   #password-tool{
-    background-color: #FCFFE7;
+    background-color: #ecefff;
     padding: 50px;
   }
   .stromg{
     font-weight: 900;
-    color: rgb(182, 18, 67);
+    color: #394F8A;
   }
